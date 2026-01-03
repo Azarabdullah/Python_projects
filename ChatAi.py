@@ -2,7 +2,7 @@ import requests
 import json
 
 
-API_KEY = "use_your_own_Api-key" 
+API_KEY = "use_your_own_Api-key!" 
 
 url = "https://openrouter.ai/api/v1/chat/completions"
 
@@ -36,4 +36,5 @@ while True:
         print("AI:", ai_reply)
         messages.append({"role": "assistant", "content": ai_reply})
     else:
+
         print("AI: Sorry, something went wrong.")
