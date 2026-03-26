@@ -1,2 +1,1 @@
-# Python_projects
-beginner python projects
+This is a basic command-line chatbot built using Python. It takes user input, sends it to the OpenRouter API, and displays the AI-generated response. The program keeps track of the conversation history so the chatbot can respond contextually. You can continue chatting in a loop until you type exit to stop the program.
